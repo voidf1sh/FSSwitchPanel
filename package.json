@@ -1,0 +1,23 @@
+{
+  "name": "fsswitchpanel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidf1sh/FSSwitchPanel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voidf1sh/FSSwitchPanel/issues"
+  },
+  "homepage": "https://github.com/voidf1sh/FSSwitchPanel#readme",
+  "dependencies": {
+    "pigpio": "^3.3.1"
+  }
+}
