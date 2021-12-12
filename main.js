@@ -16,12 +16,15 @@ switchOne.on('interrupt', (level) => {
 	switch (level) {
 		case 0:
 			// Off
+			console.log('Switch 00 Off');
 			break;
 		case 1:
 			// On
+			console.log('Switch 00 On');
 			break;
 		default:
 			// Timeout (2)
+			console.log('Switch 00 Timed Out');
 			break;
 	}
 });
