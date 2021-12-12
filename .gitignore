@@ -2,3 +2,7 @@
 prep
 node_modules
 package-lock.json
+*.png
+*.f3d
+*.dxf
+*.pdf

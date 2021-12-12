@@ -6,7 +6,7 @@ const config = require('./config.json');
 const pins = config.pins;
 
 // Set up the switches
-const switchOne = new Gpio(pins.s1, {
+const switchOne = new Gpio(pins.s00, {
 	mode: Gpio.INPUT,
 	pullUpDown: Gpio.PUD_DOWN,
 	edge: Gpio.EITHER_EDGE
